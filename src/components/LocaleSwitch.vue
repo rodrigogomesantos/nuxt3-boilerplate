@@ -2,7 +2,7 @@
 const { locale: currentLocale, locales, setLocaleCookie } = useI18n()
 
 const availableLocales = computed(() => {
-  return (locales.value).filter(locale => locale.code !== currentLocale.value)
+  return locales.value.filter(locale => locale.code !== currentLocale.value)
 })
 
 watchEffect(() => {
@@ -16,6 +16,9 @@ watchEffect(() => {
     :key="locale.code"
     :to="switchLocalePath(locale.code)"
   >
-    {{ locale.name }}
+    <span class="text-3xl">
+      vishh
+      {{ locale.name }}
+    </span>
   </NuxtLink>
 </template>

@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     // Installed modules
     '@vueuse/nuxt',
     '@pinia/nuxt',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    '@nuxtjs/tailwindcss'
   ],
   pinia: {
     autoImports: [
