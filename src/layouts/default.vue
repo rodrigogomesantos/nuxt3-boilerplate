@@ -1,14 +1,12 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <header>
     <LocaleSwitch />
+    <SupaTest />
   </header>
   <main>
     <slot />
   </main>
-  <footer>
-    Footer
-  </footer>
+  <footer>Footer</footer>
 </template>

@@ -1,0 +1,12 @@
+{
+    "i18n-ally.localesPaths": [
+        "../../../../../../Users/User/Documents/GitHub/nuxt3-boilerplate"
+    ],
+    "editor.coodeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.addMissingImports": true
+    },
+    "cSpell.words": [
+        "supabase"
+    ]
+}

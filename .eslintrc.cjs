@@ -7,7 +7,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:vue/vue3-essential',
     'plugin:@typescript-eslint/recommended',
-    '@nuxtjs/eslint-config-typescript'
+    '@nuxtjs/eslint-config-typescript',
+    'plugin:prettier/recommended'
   ],
   overrides: [
   ],
@@ -22,6 +23,10 @@ module.exports = {
   ],
   rules: {
     'vue/multi-word-component-names': 'off',
-    'vue/no-multiple-template-root': 'off'
+    'vue/no-multiple-template-root': 'off',
+    'semi': 'off',
+    'no-extra-semi': 'off',
+    // 
+
   }
 }
