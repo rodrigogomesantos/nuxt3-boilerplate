@@ -3,23 +3,23 @@ export default defineNuxtConfig({
   srcDir: 'src/',
   typescript: {
     strict: true,
-    typeCheck: true
+    typeCheck: true,
   },
   imports: {
     // Auto-import pinia stores defined in `~/stores`
-    dirs: ['stores']
+    dirs: ['stores'],
   },
   modules: [
     // Installed modules
     '@vueuse/nuxt',
     '@pinia/nuxt',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
   ],
   pinia: {
     autoImports: [
       'defineStore',
-      'storeToRefs'
-    ]
+      'storeToRefs',
+    ],
   },
   i18n: {
     strategy: 'prefix_except_default',
@@ -28,14 +28,14 @@ export default defineNuxtConfig({
       {
         code: 'en',
         iso: 'en-US',
-        name: 'English'
+        name: 'English',
       },
       {
         code: 'fr',
         iso: 'fr-FR',
-        name: 'Français'
-      }
+        name: 'Français',
+      },
     ],
-    defaultLocale: 'en'
-  }
+    defaultLocale: 'en',
+  },
 })

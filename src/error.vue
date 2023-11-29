@@ -13,7 +13,7 @@ const errorMessage = computed(() => (
     : error.value.statusMessage
 ))
 
-const handleError = () => {
+function handleError() {
   clearError({ redirect: '/' })
 }
 </script>

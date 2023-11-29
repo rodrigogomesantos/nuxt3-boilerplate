@@ -1,10 +1,10 @@
 export interface CounterState {
-  count: number;
+  count: number
 }
 
 export const useCounterStore = defineStore('counter', () => {
   const state = ref<CounterState>({
-    count: 0
+    count: 0,
   })
 
   const count = computed(() => state.value.count)
@@ -20,6 +20,6 @@ export const useCounterStore = defineStore('counter', () => {
   return {
     count,
     increment,
-    decrement
+    decrement,
   }
 })

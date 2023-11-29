@@ -23,6 +23,7 @@ const { count } = storeToRefs(counterStore)
   column-gap: 8px;
 }
 </style>
+
 <style scoped>
 .counter {
   display: flex;

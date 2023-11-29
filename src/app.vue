@@ -2,7 +2,7 @@
 const head = useLocaleHead({
   addDirAttribute: true,
   identifierAttribute: 'id',
-  addSeoAttributes: true
+  addSeoAttributes: true,
 })
 </script>
 
