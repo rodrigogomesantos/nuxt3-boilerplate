@@ -168,10 +168,10 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 3. Add task scripts
 
     ```json
-    "scripts": {
+    {
       "lint": "eslint --ext .ts,.js,.vue .",
       "lint:fix": "eslint --fix --ext .ts,.js,.vue ."
-    },
+    }
     ```
 
 4. Update your VS Code settings to look like this:
@@ -180,7 +180,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
     {
       "eslint.format.enable": true,
       "editor.codeActionsOnSave": {
-          "source.fixAll.eslint": true
+        "source.fixAll.eslint": true
       }
     }
     ```
@@ -209,8 +209,8 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
     ```json
     {
       "scripts": {
-        "typecheck": "npx nuxi typecheck",
-      },
+        "typecheck": "npx nuxi typecheck"
+      }
     }
     ```
 
