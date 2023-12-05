@@ -3,9 +3,9 @@
   "type": "module",
   "private": true,
   "author": {
-    "name": "Bogdan Morozyuk",
-    "email": "bogdan7morozyuk@gmail.com",
-    "url": "https://github.com/yuzumi"
+    "name": "Rodrigo Gomes",
+    "email": "rodrigogomes51@gmail.com",
+    "url": "https://github.com/rodrigogomesantos"
   },
   "scripts": {
     "build": "nuxt build",
